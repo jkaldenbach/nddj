@@ -1,0 +1,5 @@
+.service-map {
+  background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=Charleston,SC&zoom=7&size=640x250&maptype=roadmap&markers=color:red%7CCharleston,SC');
+  min-height: 250px;
+  background-position: center;
+}
