@@ -7,3 +7,8 @@ body {
   min-height: 250px;
   background-position: center;
 }
+
+.header-image {
+    min-height:600px;
+    background: transparent;
+}
