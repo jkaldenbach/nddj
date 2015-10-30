@@ -27,12 +27,29 @@ h1,h2,h3,h4,h5 {
   color:white;
 }
 
+.header-msg > .header-banner {
+  background-color: rgba(0,0,0,0.75);
+  height: 75px;
+}
+
 .header-msg-img {
   max-width: 100%;
   height: auto;
   margin-top: 30px;
   float:left;
 }
+
+/* CONTAINERS */
+
+.container-fluid {
+  background-color:#555;
+  background-image:url('../img/rubber_grip.png');
+}
+
+.container {
+  background-color:white;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -65,8 +82,12 @@ h1,h2,h3,h4,h5 {
 
 /* PANELS */
 
-.panel-body {
-  height: 130px;
+.panel-body > .height-200 {
+  height: 200px;
+}
+
+.panel-body > .height-225 {
+  height: 225px;
 }
 
 .fa-headphones {
@@ -74,12 +95,12 @@ h1,h2,h3,h4,h5 {
   font-size: 48px;
 }
 
-.fa-money {
+.fa-bullhorn {
   color: #389532;
   font-size: 48px;
 }
 
-.fa-gift {
+.fa-volume-up {
   color:#012F63;
   font-size:48px;
 }
@@ -95,7 +116,6 @@ h1,h2,h3,h4,h5 {
 #footer {
   height:200px;
   background-color: #555;
-  background-image: url("file:///C:/Users/Stuart/Desktop/Nathan%20D%20Website/nddj/img/footer-bg.png");
   background-size: 50%;
 }
 
@@ -163,4 +183,32 @@ hr {
 
 .rates-info {
   padding: 10px;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+.fb-blue {
+  color:#363677;
+}
+
+.tw-blue {
+  color:#5095EA;
+}
+
+.yt-red {
+  color:#FF0000;
+}
+
+.tt-orange {
+  color:#FF6A00;
+}
+
+.ig-brown {
+  color:#6F3B16;
+}
+
+.li-blue {
+  color:#527BC5;
 }
